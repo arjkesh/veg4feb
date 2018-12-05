@@ -101,11 +101,11 @@ const Avatar = styled.img`
 `;
 
 const AboutSub = styled.span`
-  ${tw('text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl')};
+  ${tw('text-green pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl')};
 `;
 
 const AboutDesc = styled.p`
-  ${tw('text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify')};
+  ${tw('text-orange text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify')};
 `;
 
 const ContactText = styled.p`
@@ -244,11 +244,16 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="carrot" />
             <AboutSub>
-              A journey into...
+              #veg4feb is meant for meat-eaters to try eating vegetarian. Or vegetarians to continue eating vegetarian. Or for vegans to try milk.              
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            And this, this is.
+            Rules:
+            <ul>
+              <li>There are no rules. Just don't eat meat for the month of February</li>
+              <li>Use #veg44feb whenever you can find the excuse to do so</li>
+              <li>Be as pretentious as you can about being #veg</li>
+            </ul>
           </AboutDesc>
         </Inner>
       </Content>
