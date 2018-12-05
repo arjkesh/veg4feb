@@ -136,12 +136,13 @@ const Index = () => (
     <Parallax pages={5}>
       <Divider speed={0.2} offset={0}>
         <UpDown>
-          <SVG icon="triangle" className={hidden} width={48} stroke={colors.orange} left="10%" top="20%" />
+          <SVG icon="carrot" width={48} left="10%" top="10%" />
           <SVG icon="hexa" width={48} stroke={colors.red} left="60%" top="70%" />
           <SVG icon="box" width={6} fill={colors['grey-darker']} left="60%" top="15%" />
         </UpDown>
         <UpDownWide>
           <SVG icon="arrowUp" className={hidden} width={16} fill={colors['blue-dark']} left="80%" top="10%" />
+          <SVG icon="triangle" width={12} stroke={colors.white} left="90%" top="50%" />
           <SVG icon="triangle" width={12} stroke={colors.white} left="90%" top="50%" />
           <SVG icon="circle" width={16} fill={colors['grey-darker']} left="70%" top="90%" />
           <SVG icon="triangle" width={16} stroke={colors['grey-darkest']} left="30%" top="65%" />
@@ -206,7 +207,7 @@ const Index = () => (
         <UpDown>
           <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
           <SVG icon="upDown" width={8} fill={colors.teal} left="70%" top="20%" />
-          <SVG icon="triangle" width={8} stroke={colors.orange} left="25%" top="5%" />
+          <SVG icon="carrot" width={48} left="80%" top="5%" />
           <SVG icon="circle" className={hidden} width={24} fill={colors.white} left="17%" top="60%" />
         </UpDown>
         <UpDownWide>
@@ -297,6 +298,7 @@ const Index = () => (
         </UpDown>
         <UpDownWide>
           <SVG icon="triangle" width={12} stroke={colors.white} left="95%" top="50%" />
+          <SVG icon="carrot" width={48} left="10%" top="10%" />
           <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
           <SVG icon="upDown" className={hidden} width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
         </UpDownWide>
