@@ -108,6 +108,12 @@ const AboutDesc = styled.p`
   ${tw('text-orange text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify')};
 `;
 
+const AboutList = styled.ul`
+  li {
+    list-style-type: circle;
+  }
+`;
+
 const ContactText = styled.p`
   ${tw('text-grey-light font-sans text-xl md:text-2xl lg:text-3xl')};
   a {
@@ -249,11 +255,11 @@ const Index = () => (
           </AboutHero>
           <AboutDesc>
             Rules:
-            <ul>
+            <AboutList>
               <li>There are no rules. Just don't eat meat for the month of February</li>
-              <li>Use #veg44feb whenever you can find the excuse to do so</li>
+              <li>Use #veg4feb whenever you can find the excuse to do so</li>
               <li>Be as pretentious as you can about being #veg</li>
-            </ul>
+            </AboutList>
           </AboutDesc>
         </Inner>
       </Content>
